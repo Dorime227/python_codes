@@ -1,0 +1,67 @@
+taka = int(input("Enter taka: "))
+note1=500
+note2=100
+note3=20
+note4=10
+note5=2
+note6=1
+if  taka>=note1:
+    taka1=taka//note1
+    taka2=taka%note1
+    taka3=taka2//note2
+    taka4=taka2%note2
+    taka5=taka4//note3
+    taka6=taka4%note3
+    taka7=taka6//note4
+    taka8=taka6%note4
+    taka9=taka8//note5
+    taka10=taka8%note5
+    taka11=taka10//note6
+    if (taka1 !=0):
+      print("500 taka: ",taka1,"note(s)")
+    if (taka3 !=0):
+      print("100 taka: ",taka3,"note(s)")
+    if (taka5 !=0):
+      print("20 taka: ",taka5,"note(s)")
+    if (taka7 !=0):
+      print("10 taka: ",taka7,"note(s)")
+    if (taka9 !=0):
+      print("2 taka: ",taka9,"note(s)")
+    if (taka11 !=0):
+      print("1 taka: ",taka11,"note(s)")
+elif taka<note1 and taka>=note2:
+    taka12=taka//note2
+    taka13=taka%note2
+    taka14=taka13//note3
+    taka15=taka13%note3
+    taka16=taka15//note4
+    taka17=taka15%note4
+    taka18=taka17//note5
+    taka19=taka17%note5
+    taka20=taka19//note6
+    if (taka12!=0):
+      print("100 taka: ",taka12,"note(s)")
+    if (taka14 !=0):
+      print("20 taka: ",taka14,"note(s)")
+    if (taka16 !=0):
+      print("10 taka: ",taka16,"note(s)")
+    if (taka18 !=0):
+      print("2 taka: ",taka18,"note(s)")  
+    if (taka20 !=0):
+      print("1 taka: ",taka20,"note(s)")
+else:
+    taka21=taka//note3
+    taka22=taka%note3
+    taka23=taka22//note4
+    taka24=taka22%note4
+    taka25=taka24//note5
+    taka26=taka24%note5
+    taka27=taka26//note6
+    if (taka21 !=0):
+      print("20 taka: ",taka21,"note(s)")
+    if (taka23 !=0):
+      print("10 taka: ",taka23,"note(s)")
+    if (taka25 !=0):
+      print("2 taka: ",taka25,"note(s)")
+    if (taka27 !=0):
+      print("1 taka: ",taka27,"note(s)")
